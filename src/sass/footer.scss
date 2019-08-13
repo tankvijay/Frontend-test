@@ -1,0 +1,19 @@
+.footer { padding: 2rem 0; font-size: 15px; }
+.footer .container { display: flex; justify-content: space-between; align-items: center; }
+.socialmedia-inks { display: flex; width: auto; }
+.socialmedia-inks ul { display: flex; align-items: center; }
+.socialmedia-inks em { color: #afa5a3; font-size: 18px; margin-left: 10px; }
+.socialmedia-inks em:hover, .socialmedia-inks em:focus { color: #fff; }
+ 
+//responsive css start here
+ 
+ @media (max-width:1366px) {
+ .footer {
+ padding: 1rem 0;
+}
+}
+@media (max-width:767px) {
+.socialmedia-inks,  .footer .container > p { width: 100%; text-align: center; }
+.socialmedia-inks { justify-content: center; margin-top: 10px; }
+.footer .container { flex-wrap: wrap; }
+}

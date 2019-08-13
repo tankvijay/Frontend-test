@@ -1,0 +1,35 @@
+.about-us {
+    padding: 5.5rem 0;
+}
+
+.about-us h2 {
+    font-size: 29px;
+    margin: 0;
+}
+
+.about-us p {
+    font-size: 17px;
+    line-height: 1.45;
+}
+
+//responsive css goes here
+@media (max-width:1366px) {
+    .about-us {
+        padding: 4.5rem 0 4rem;
+    }
+    .about-us h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width:991px) {
+    .about-us {
+        padding: 2rem 0 1rem;
+    }
+}
+
+@media (max-width:767px) {
+    .about-us h2 {
+        font-size: 21px;
+    }
+}

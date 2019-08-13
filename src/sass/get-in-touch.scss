@@ -1,0 +1,29 @@
+.cta-get-in-touch { background: url(../images/cta-get-in-touch-bg.png) no-repeat; background-position: center top; background-size: cover; padding: 5rem 0; }
+.cta-get-in-touch:after { background: rgba(0, 0, 0, 0.7); }
+.cta-get-in-touch h2 { font-size: 28px; margin-bottom: 10px; }
+.cta-get-in-touch p { margin: 0; font-size: 20px; }
+.contact-us-form { max-width: 800px; margin: 2.3rem auto 0; }
+.contact-us-form textarea { height: 110px; resize: none; }
+.contact-us-form .cta { margin: 5px auto 0; }
+.form-control { font-size: 15px; display: block; width: 100%; height: calc(1.5em + 0.75rem + 2px); padding: 0.375rem 0.75rem; font-weight: 400; line-height: 1.5; color: #495057; background-color: #fff; background-clip: padding-box; border: 1px solid #ced4da; border-radius: 0.25rem; }
+.form-field { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-right: -5px; margin-left: -5px; }
+ .form-field > .col, .form-field > [class*="col-"] {
+ padding-right: 5px;
+ padding-left: 5px;
+}
+.form-group { margin-bottom: 1rem; }
+
+ //responsive css start here
+ 
+ @media (max-width:1366px) {
+ .cta-get-in-touch {
+ padding: 3rem 0;
+}
+}
+ @media (max-width:991px) {
+.cta-get-in-touch { padding: 2rem 0; }
+}
+ @media (max-width:767px) {
+.form-group.px2 { padding: 0; }
+.form-field { margin-right: 0; margin-left: 0; }
+}
